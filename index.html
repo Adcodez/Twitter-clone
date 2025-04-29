@@ -81,12 +81,97 @@
             <img  src="./assets/profile.jpg" alt="Profile Picture" class="profile-picture">
         </div>
         <div class="profile-info">
-            <span class="profile-name">John Doe</span>
-            <span class="profile-username" style="display: block;">@johndoe</span>
+            <span class="profile-name">adam Kupi</span>
+            <span class="profile-username" style="display: block;">@kupi130661</span>
         </div>
         </div>
     </div>
  </div>
+ <div class="feed-container">
+    <!-- 1️⃣ Top Tabs (For You / Following) -->
+    <div class="feed-tabs">
+      <button class="tab active">For You</button>
+      <button class="tab">Following</button>
+    </div>
+  
+    <!-- 2️⃣ Tweet Box -->
+    <div class="tweet-box">
+      <img src="file:///C:/Users/AdamK/OneDrive/Desktop/Twitter%20clone/assets/profile.jpg" class="avatar">
+      <textarea placeholder="What’s happening?"></textarea>
+    </div>
+    <!-- 3️⃣ Show Posts Notification -->
+    <div class="show-posts-banner">Show 62 posts</div>
+  
+      <!-- 4️⃣ Tweet Feed -->
+    <div class="tweet-feed">
+      <div class="tweet">
+        <img src="https://i.pinimg.com/564x/d9/56/9b/d9569bbed4393e2ceb1af7ba64fdf86a.jpg" class="avatar">
+        <div class="tweet-content">
+          <h4>Mr.K <span>@helpme-Please · 1s</span></h4>
+          <p>The life of a developer</p>
+
+          <p> "I told myself I’d just fix *one* bug. Simple, right? Six hours later, I’ve somehow unearthed 17 new bugs, refactored the entire component hierarchy, added a dark mode toggle for ‘aesthetic reasons,’ and written a custom React hook called <code>useExistentialCrisis()</code>. Oh — and the original bug? Yeah, still there. Mocking me. At this point, I think the bug is fixing *me.* Send help. Or snacks. Preferably both." </p>
+          
+          <img src="https://pbs.twimg.com/media/Ct73u8eXYAE1lRd.jpg">
+        </div>
+      </div>
+      <div class="tweet">
+        <img src="data:image/jpeg;base64,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" class="avatar">
+        <div class="tweet-content">
+          <h4>Johno <span>@movieFanatic · 15h</span></h4>
+          <p>I miss Richard Pryor and Gene Wilder movies </p>
+          <p>
+            There’s something timeless about watching Richard Pryor and Gene Wilder on screen together.  
+            The way they bounced off each other — chaos and calm, fire and ice — it was pure magic.  
+            Movies like <em>Stir Crazy</em> and <em>See No Evil, Hear No Evil</em> didn’t just make me laugh —  
+            they became comfort films, the kind you return to when the world feels too heavy.  
+            It’s not just nostalgia. It’s joy, wit, and the kind of chemistry that doesn’t come around often.  
+            I really miss that era of comedy.
+          </p>
+          
+
+          <img src="https://resizing.flixster.com/25SWK7v93YRI1iJgFsk6L4OUZ4U=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p5_i_h8_ad.jpg">
+
+        </div>
+      </div>
+      <div class="tweet">
+        <img src="https://w0.peakpx.com/wallpaper/979/89/HD-wallpaper-purple-smile-design-eye-smily-profile-pic-face-thumbnail.jpg" class="avatar">
+        <div class="tweet-content">
+          <h4>Jason fried <span>@Game-expert · 12h</span></h4>
+          <p>I love gaming</p>
+          <p>
+            Hard core gamer: “Just one more game and I’m done.”  
+            Also me, 4AM, eyes bloodshot, keyboard crumbs everywhere:  
+            “If I don't win this match, the entire squad dies. I owe them.”  
+            🕹️🎮  
+            Gamers don’t sleep — we respawn.
+          </p>
+          
+          <img src="https://i.ytimg.com/vi/QaeCB9CClpI/maxresdefault.jpg">
+        </div>
+      </div>
+      <div class="tweet">
+        <img src="https://i.redd.it/outwklqs4ivc1.png" class="avatar">
+        <div class="tweet-content">
+          <h4>DropbearDundee <span>@WombatWrecker · 23h</span></h4>
+          <p>Crikey!</p>
+          <p>
+            Funny fact, mate: Kangaroos can’t walk backwards. Dead set.  
+            So if ya ever get in a fight with one, just stand behind it — problem solved.  
+            Unless it turns ‘round and kicks ya into next week.  
+            Aussie engineering at its finest. 🦘🇦🇺
+          </p>
+          
+          <img src="https://media.istockphoto.com/id/2167623509/photo/kangaroos-in-field.jpg?s=2048x2048&w=is&k=20&c=UnWiY2TZD2aC-3bAdVFPaV2x21t7Nksb5-X66I17hs4=">
+         
+        </div>
+      </div>
+  
+      <!-- More .tweet blocks -->
+    </div>
+  </div>
+  <!-- End of middle section -->
+   
     
 </body>
 </html>
