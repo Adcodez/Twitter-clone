@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/icon.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Home/X</title>
 </head>
@@ -98,6 +99,7 @@
     <div class="tweet-box">
       <img src="file:///C:/Users/AdamK/OneDrive/Desktop/Twitter%20clone/assets/profile.jpg" class="avatar">
       <textarea placeholder="What’s happening?"></textarea>
+      <button class="tweet-btn">Post</button>
     </div>
     <!-- 3️⃣ Show Posts Notification -->
     <div class="show-posts-banner">Show 62 posts</div>
@@ -171,7 +173,103 @@
     </div>
   </div>
   <!-- End of middle section -->
-   
+   <!-- Start of right side bar -->
+   <div class="right-sidebar">
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" placeholder="Search" >
+    </div>
+  
+    <!-- Subscribe to Premium Box -->
+    <div class="premium-box">
+      <h4>Subscribe to Premium</h4>
+      <p>Subscribe to unlock new features and if eligible, receive a share of revenue.</p>
+      <button class="subscribe-btn">Subscribe</button>
+    </div>
+  
+    <!-- Scrollable Section -->
+    <div class="scroll-section">
+      <!-- What's Happening -->
+      <div class="sidebar-section">
+        <h3>What’s happening</h3>
+        <ul>
+          <li>
+            <span class="category">Trending in Tech</span>
+            <p class="topic">#AIOverlords</p>
+            <span class="meta">15.3K Tweets</span>
+          </li>
+          <li>
+            <span class="category">Trending in Australia</span>
+            <p class="topic">#MagpieSeason</p>
+            <span class="meta">8,210 Tweets</span>
+          </li>
+          <li>
+            <span class="category">Gaming · Trending</span>
+            <p class="topic">#EldenRing2</p>
+            <span class="meta">24.1K Tweets</span>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- Who to Follow -->
+      
+<div class="sidebar-section">
+    <h3>Who to follow</h3>
+    <div class="follow-suggestion">
+      <div class="user">
+        <div class="user-info">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="DevDingo">
+          <div>
+            <strong>DevDingo</strong><br>
+            <span>@dev_dingo</span>
+          </div>
+        </div>
+        <button class="follow-btn">Follow</button>
+      </div>
+      <div class="user">
+        <div class="user-info">
+          <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="ReactRoo">
+          <div>
+            <strong>ReactRoo</strong><br>
+            <span>@roo_reacts</span>
+          </div>
+        </div>
+        <button class="follow-btn">Follow</button>
+      </div>
+      <a href="#" class="show-more">Show more</a>
+    </div>
+  </div>
+  
+  
+      <!-- Show More -->
+      
+    </div>
+  </div>
+    <!-- End of right side bar -->  
+
+    <!-- Mobile Navigation -->
+<div class="mobile-nav">
+    <div class="mobile-nav-items">
+      <a href="https://www.youtube.com/watch?v=1vrEljMfXYo" class="mobile-nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000">
+          <path d="M22 5.5H2v-3h20v3zm-2 2v11H4v-11H2v13h20v-13h-2z"/>
+        </svg>
+        <span>Home</span>
+      </a>
+      <a href="https://www.youtube.com/watch?v=fzRC37grckk" class="mobile-nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000">
+          <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V7h14v12z"/>
+        </svg>
+        <span>Messages</span>
+      </a>
+      <a href="https://www.google.com/search?q=buzzing+sound&rlz=1C1VDKB_enZA1132ZA1132&oq=buzzing+&gs_lcrp=EgZjaHJvbWUqDQgBEAAYkQIYgAQYigUyBggAEEUYOTINCAEQABiRAhiABBiKBTIHCAIQABiABDIHCAMQABiABDIMCAQQABgUGIcCGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEINzI1OWowajSoAgiwAgHxBftG73BxfjOR&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:e77d007a,vid:4zvBICzDzt0,st:0" class="mobile-nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000">
+          <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.93 6 11v5l-2 2v1h16v-1l-2-2z"/>
+        </svg>
+        <span>Notifications</span>
+      </a>
+    </div>
+  </div>
     
 </body>
 </html>

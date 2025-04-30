@@ -1,0 +1,77 @@
+/* Mobile Bottom Navigation (Hidden by default) */
+.mobile-nav {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-top: 1px solid #e6ecf0;
+    padding: 12px 0;
+    z-index: 100;
+    text-decoration: none;
+  }
+  
+  .mobile-nav-items {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .mobile-nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mobile-nav-item svg {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+  }
+  
+  /* Mobile Responsive Adjustments */
+  @media (max-width: 1024px) {
+    body {
+      padding-bottom: 60px; /* Space for mobile nav */
+    }
+  
+    .sidebar {
+      display: none; /* Hide desktop sidebar */
+    }
+  
+    .feed-container {
+      margin-left: 0;
+      width: 100%;
+      max-width: 100%;
+      border: none;
+    }
+  
+    .right-sidebar {
+      display: none; /* Hide right sidebar */
+    }
+  
+    .tweet-feed img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .mobile-nav {
+      display: block; /* Show mobile nav */
+    }
+  }
+  
+  /* Smaller Mobile Screens */
+  @media (max-width: 640px) {
+    .tweet-box .avatar {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .tweet-box textarea {
+      font-size: 16px;
+    }
+  
+    .tweet-btn {
+      width: 100%;
+    }
+  }
