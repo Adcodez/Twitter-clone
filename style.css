@@ -150,6 +150,23 @@
     outline: none;
     padding-top: 10px;
   }
+  .tweet-btn{
+    background-color: #88898c;
+    color: white;
+    border-radius: 999px;
+    font-weight: bold;
+    margin-top: 50px;
+    border: none;
+    width: 66.34px;
+    height: 36px;
+  }
+  .tweet-btn:hover{
+    background-color: #272c30;
+  }
+  .tweet-svg{
+    margin: 30px 20px 0 0;
+    display: inline-flex;
+  }
   
   /* 3️⃣ Tweet Feed */
   .tweet-feed {
