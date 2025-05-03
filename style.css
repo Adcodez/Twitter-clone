@@ -10,9 +10,10 @@
       width: 30%;
       background-color: white;
       height: 100vh;
-      padding: 0px 10px 0 50px;
+      padding: 0px 10px 0 180px;
       border-right: 1px solid #e6ecf0;
-      
+      font-size: 18px;
+      font-weight: 600;
       flex-direction: column;
       position: fixed;
     }
@@ -21,11 +22,11 @@
         display: flex;
         align-items: center;
         margin-bottom: 5px;
-        font-size: 20px;
-        font-weight: 500;
+        
         text-decoration: none;
         border-radius: 999px;
         flex-direction: column;
+        margin-left: 200px;
         
     }
     .nav-items svg{
