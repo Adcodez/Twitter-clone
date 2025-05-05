@@ -266,18 +266,13 @@
   }
   /* Start of right bar */
   .right-sidebar {
-    /* position: fixed; */
-    top: 0;
-    right: 0;
     width: 350px;
-    height: 100vh;
+    height: auto; /* or min-height: 100vh */
     padding: 16px;
-    overflow: visable;
-    background: white;
-    box-sizing: border-box;
     margin-right: 100px;
-    
   }
+  
+  
   /* start of right navigation */
   .search-bar{
     display: flex;
@@ -336,10 +331,9 @@
   
   .scroll-section {
     position: sticky;
+    top: 0;
     max-height: 100vh;
-    overflow-y: auto;
-   
-    padding-right: 6px;
+    overflow-y: auto; /* Optional: for internal scrolling */
   }
   
   .sidebar-section {
