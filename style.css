@@ -332,8 +332,8 @@
   .scroll-section {
     position: sticky;
     top: 0;
-    max-height: 100vh;
-    overflow-y: auto; /* Optional: for internal scrolling */
+    max-height: 150vh;
+    overflow-y: none; /* Optional: for internal scrolling */
   }
   
   .sidebar-section {
@@ -421,4 +421,55 @@
   border: none;
   background-color: white;
   opacity: 0.5;
+}
+/* Footer  */
+/* styles.css */
+.footer {
+  font-family: 'Roboto', sans-serif;
+  margin: 20px 0;
+  padding: 0 16px;
+}
+
+.footer-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #71767b;
+  text-decoration: none;
+  font-size: 12px;
+  transition: all 0.2s ease;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #0f1419;
+}
+
+.copyright {
+  color: #71767b;
+  font-size: 12px;
+  text-align: center;
+  margin: 5px 0 10px 0;
+}
+.about-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+  color: #536471;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: center;
+}
+.info-link{
+  color: #1d9bf0;
+  text-decoration: none;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+.info-link:hover {
+  text-decoration: underline;
 }
