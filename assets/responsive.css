@@ -75,3 +75,72 @@
       width: 100%;
     }
   }
+/* Only apply icons-only mode in specific cases */
+@media screen and (min-width: 1024px) and (max-height: 600px) {
+  /* Optional: Only hide text on short screens */
+  .sidebar .nav-items a span,
+  .sidebar .nav-items .post-button,
+  .sidebar .nav-items .profile-bottom .profile-info {
+    display: none;
+  }
+  
+  .sidebar .nav-items a svg,
+  .sidebar .nav-items .profile-bottom .profile-icon {
+    display: inline-block;
+  }
+}
+@media (max-width: 990px) {
+  .right-sidebar {
+    display: none;
+  }
+}
+
+/* Original mobile styles (1024px breakpoint) */
+@media (max-width: 1024px) {
+  body {
+    padding-bottom: 60px;
+  }
+  .sidebar {
+    display: none;
+  }
+  .feed-container {
+    margin-left: 0;
+    width: 100%;
+  }
+  .mobile-nav {
+    display: block;
+  }
+}
+
+/* 1. Hide sidebar TEXT at 1248px width (when height ≤ 624px) */
+@media (max-width: 1248px) and (max-height: 624px) {
+  .sidebar a span,
+  .sidebar .profile-info,
+  .sidebar .nav-text {
+    display: none;
+  }
+  .sidebar {
+    width: 68px; /* Collapsed icon-only width */
+  }
+}
+
+/* 2. Hide RIGHT sidebar at 949px width (when height ≤ 624px) */
+@media (max-width: 949px) and (max-height: 624px) {
+  .right-sidebar {
+    display: none;
+  }
+  .main-content {
+    margin-right: 0; /* Expand main content */
+  }
+}
+
+/* 3. Hide LEFT sidebar at 484px width (when height ≤ 624px) */
+@media (max-width: 484px) and (max-height: 624px) {
+  .sidebar {
+    display: none;
+  }
+  /* Show mobile navigation */
+  .mobile-nav {
+    display: flex;
+  }
+}
